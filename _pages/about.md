@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ex <a href='https://www.ece.ntua.gr/en'>NTUA</a>, <a href='https://deeplab.ai/'>Deeplab</a>, <a href='https://steelperlot.com/'>Steel Perlot</a>
 
