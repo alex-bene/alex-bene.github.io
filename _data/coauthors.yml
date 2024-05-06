@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"diomataris":
+  - firstname: ["Markos", "M.", "M"]
+    url: https://ait.ethz.ch/people/mdiomataris
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"nikita":
+  - firstname: ["Konstasntina S.", "Konstasntina S", "K. S.", "K.", "K. S", "K S", "K S."]
+    url: https://www.biosim.ntua.gr/en/people/knikita
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"pitsikalis":
+  - firstname: ["Vassilis", "V.", "V"]
+    url: https://scholar.google.ca/citations?user=_0Y1M6MAAAAJ&hl=en
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"maragos":
+  - firstname: ["Petros", "P.", "P"]
+    url: https://robotics.ntua.gr/members/maragos/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"achlioptas":
+  - firstname: ["Panos", "P."]
+    url: https://optas.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"fostiropoulos":
+  - firstname: ["Iordanis", "I.", "I"]
+    url: https://iordanis.me/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"skourtis":
+  - firstname: ["Dimitris", "D.", "D"]
+    url: https://www.skourtis.io/
