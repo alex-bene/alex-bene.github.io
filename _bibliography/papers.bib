@@ -1,19 +1,17 @@
 ---
 ---
 
-@inproceedings{benetatos2021assessing,
+@article{achlioptas2023stellar,
   bibtex_show={true},
-  title={Assessing vision quality in retinal prosthesis implantees through deep learning: Current progress and improvements by optimizing hardware design parameters and rehabilitation},
-  author={Benetatos, Alexandros and Melanitis, Nikos and Nikita, Konstantina S},
-  booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC)},
-  pages={6130--6133},
-  year={2021},
-  organization={IEEE},
-  pdf={https://paperhost.org/proceedings/embs/EMBC21/files/0994.pdf},
-  html={https://ieeexplore.ieee.org/abstract/document/9630963},
-  video={https://youtu.be/JYxJJDVUMN8},
-  abstract={Retinal prosthesis (RP) is used to partially restore vision in patients with degenerative retinal diseases. Assessing the quality of RP-acquired (i.e., prosthetic) vision is needed to evaluate RP impact and prospects. Spatial distortions caused by electrical stimulation of the retina in RP, and the low number of electrodes, have limited the prosthetic vision: patients mostly localize shapes and shadows rather than recognizing objects. We simulate prosthetic vision and evaluate vision on image classification tasks, varying critical hardware parameters: total number and size of electrodes. We also simulate rehabilitation by re-training our models on prosthetic vision images. We find that electrode size has little impact on vision while at least 400 electrodes are needed to sufficiently restore vision (more than 65% classification accuracy on a complex visual task after rehabilitation). Argus II, a currently available implant, produces a low-resolution vision leading to low accuracy (21.3% score after rehabilitation) in complex vision tasks. Rehabilitation produces significant improvements (accuracy improvement of up to 30% on complex tasks, depending on the number of electrodes) in the attained vision, boosting our expectations for RP interventions and motivating the establishment of rehabilitation procedures for RP implantees.},
-  abbr={EMBC},
+  title={Stellar: Systematic Evaluation of Human-Centric Personalized Text-to-Image Methods},
+  author={Achlioptas, Panos and Benetatos, Alexandros and Fostiropoulos, Iordanis and Skourtis, Dimitris},
+  journal={arXiv preprint arXiv:2312.06116},
+  year={2023},
+  arxiv={https://arxiv.org/abs/2312.06116},
+  abstract={In this work, we systematically study the problem of personalized text-to-image generation, where the output image is expected to portray information about specific human subjects. E.g., generating images of oneself appearing at imaginative places, interacting with various items, or engaging in fictional activities. To this end, we focus on text-to-image systems that input a single image of an individual to ground the generation process along with text describing the desired visual context. Our first contribution is to fill the literature gap by curating high-quality, appropriate data for this task. Namely, we introduce a standardized dataset (Stellar) that contains personalized prompts coupled with images of individuals that is an order of magnitude larger than existing relevant datasets and where rich semantic ground-truth annotations are readily available. Having established Stellar to promote cross-systems fine-grained comparisons further, we introduce a rigorous ensemble of specialized metrics that highlight and disentangle fundamental properties such systems should obey. Besides being intuitive, our new metrics correlate significantly more strongly with human judgment than currently used metrics on this task. Last but not least, drawing inspiration from the recent works of ELITE and SDXL, we derive a simple yet efficient, personalized text-to-image baseline that does not require test-time fine-tuning for each subject and which sets quantitatively and in human trials a new SoTA. For more information, please visit our project's website: https://stellar-gen-ai.github.io.},
+  website={https://stellar-gen-ai.github.io},
+  preview={stellar_teaser.jpeg},
+  abbr={arXiv},
   selected={true}
 }
 
@@ -33,16 +31,18 @@
   selected={true}
 }
 
-@article{achlioptas2023stellar,
+@inproceedings{benetatos2021assessing,
   bibtex_show={true},
-  title={Stellar: Systematic Evaluation of Human-Centric Personalized Text-to-Image Methods},
-  author={Achlioptas, Panos and Benetatos, Alexandros and Fostiropoulos, Iordanis and Skourtis, Dimitris},
-  journal={arXiv preprint arXiv:2312.06116},
-  year={2023},
-  arxiv={https://arxiv.org/abs/2312.06116},
-  abstract={In this work, we systematically study the problem of personalized text-to-image generation, where the output image is expected to portray information about specific human subjects. E.g., generating images of oneself appearing at imaginative places, interacting with various items, or engaging in fictional activities. To this end, we focus on text-to-image systems that input a single image of an individual to ground the generation process along with text describing the desired visual context. Our first contribution is to fill the literature gap by curating high-quality, appropriate data for this task. Namely, we introduce a standardized dataset (Stellar) that contains personalized prompts coupled with images of individuals that is an order of magnitude larger than existing relevant datasets and where rich semantic ground-truth annotations are readily available. Having established Stellar to promote cross-systems fine-grained comparisons further, we introduce a rigorous ensemble of specialized metrics that highlight and disentangle fundamental properties such systems should obey. Besides being intuitive, our new metrics correlate significantly more strongly with human judgment than currently used metrics on this task. Last but not least, drawing inspiration from the recent works of ELITE and SDXL, we derive a simple yet efficient, personalized text-to-image baseline that does not require test-time fine-tuning for each subject and which sets quantitatively and in human trials a new SoTA. For more information, please visit our project's website: https://stellar-gen-ai.github.io.},
-  website={https://stellar-gen-ai.github.io},
-  preview={stellar_teaser.jpeg},
-  abbr={arXiv},
+  title={Assessing vision quality in retinal prosthesis implantees through deep learning: Current progress and improvements by optimizing hardware design parameters and rehabilitation},
+  author={Benetatos, Alexandros and Melanitis, Nikos and Nikita, Konstantina S},
+  booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC)},
+  pages={6130--6133},
+  year={2021},
+  organization={IEEE},
+  pdf={https://paperhost.org/proceedings/embs/EMBC21/files/0994.pdf},
+  html={https://ieeexplore.ieee.org/abstract/document/9630963},
+  video={https://youtu.be/JYxJJDVUMN8},
+  abstract={Retinal prosthesis (RP) is used to partially restore vision in patients with degenerative retinal diseases. Assessing the quality of RP-acquired (i.e., prosthetic) vision is needed to evaluate RP impact and prospects. Spatial distortions caused by electrical stimulation of the retina in RP, and the low number of electrodes, have limited the prosthetic vision: patients mostly localize shapes and shadows rather than recognizing objects. We simulate prosthetic vision and evaluate vision on image classification tasks, varying critical hardware parameters: total number and size of electrodes. We also simulate rehabilitation by re-training our models on prosthetic vision images. We find that electrode size has little impact on vision while at least 400 electrodes are needed to sufficiently restore vision (more than 65% classification accuracy on a complex visual task after rehabilitation). Argus II, a currently available implant, produces a low-resolution vision leading to low accuracy (21.3% score after rehabilitation) in complex vision tasks. Rehabilitation produces significant improvements (accuracy improvement of up to 30% on complex tasks, depending on the number of electrodes) in the attained vision, boosting our expectations for RP interventions and motivating the establishment of rehabilitation procedures for RP implantees.},
+  abbr={EMBC},
   selected={true}
 }
