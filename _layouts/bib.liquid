@@ -22,9 +22,9 @@
               <a href="{{site.data.venues[entry.abbr].url}}">{{ entry.abbr }}</a>
             {% else %}
               <div
-              {% if text_style %}
-                {{ text_style }}
-              {% endif -%}  
+                {% if text_style %}
+                  {{ text_style }}
+                {% endif -%}  
               >{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
