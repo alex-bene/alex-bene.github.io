@@ -1,5 +1,5 @@
 ---
-permalink: assets/pdf/cv_202404.pdf
+permalink: assets/pdf/cv_202409.pdf
 title: CV
 nav: true
 nav_order: 5
